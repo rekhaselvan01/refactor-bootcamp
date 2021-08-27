@@ -1,15 +1,14 @@
-/*---universal element---- */
+/*-----universal element----*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* setting the background color */
+/* setting the background color for body */
 body {
     background-color: #d9dcd6;
 }
-
-/* styling the header */
+/*styling the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +20,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/* setting h1 color */
+/* setting h1 .seo color */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -42,30 +41,30 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/*styling the link */
+/* setting the color for link */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* styling the paragraph */
+/* setting the font-size for paragraph */
 p {
     font-size: 16px;
 }
-/*styling the div with class name hero */
+/* setting the css properties for the class hero */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url('/images/digital-marketing-meeting.jpg');
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-/* styling the float-left */
+/* setting the float as left and setting right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/* styling the float-right */
+/* setting the float as right and setting left margin */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -76,7 +75,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*setting the css properties for class benefits */
+/* setting the css properties for class benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,24 +86,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* styling the elements with class benefit-lead */
-.benefit-lead {
+/* organizing the css selectors and properties for the classes */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff; 
+    color: #ffffff;
 }
-/* styling the header h3 */
-.benefit-lead h3 {
+/* organizing the css selectors and properties for the classes h3 */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* styling the image */
-.benefit-lead img {
+/* organizing the css selectors and properties for the classes img */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*styling the elements with same class */
-.search-engine-optimization {
+/* organizing the css selectors and properties for the classes */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,23 +111,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*styling img */
-.search-engine-optimization img {
+/* organizing the css selectors and properties for the classes img */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-/* styling the header h2 */
-.search-engine-optimization h2 {
+/* organizing the css selectors and properties for the classes h2 */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* setting css properties to footer */
+/* setting the css properties for footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* setting font size to footer h2 */
+/* setting font-size to footer h2 */
 .footer h2 {
     font-size: 20px;
 }
